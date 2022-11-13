@@ -22,17 +22,15 @@ Go to Api Credentials
 Create new API key and leave IP blank.
 Copy API Key and insert into barer_token field in config.py
 KEY must be admin's KEY
------------------------------------------------------------------------------------------------
+
 
 For server List in config.py
 ---------------------------
 
-# the last part of url is server identifier
-# make sure to follow the format when adding servers. Esp , the comma at the end. The last server doesn't require comma , <== important
-panel_urls = [
-                'https://gcpanel.ghostcap.com/api/client/servers/e8785ebc/',
-                'https://gcpanel.ghostcap.com/api/client/servers/646e0c79/'
-                
-    ]
+The last part of url is server identifier
+make sure to follow the format when adding servers. Esp , the comma at the end. The last server doesn't require comma , <== important
+![image](https://user-images.githubusercontent.com/98382155/201522464-86da2dc2-f5ba-4dc3-9d31-dc8c37236fb0.png)
+
     
-Run with this command in server console "python main.py"
+Run with this command in server console "python main.py" or "python3 main.py"
+
