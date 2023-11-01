@@ -1,5 +1,5 @@
 # Panel-Power-Action
-mass stopping and starting of servers hosted on panel
+Mass stopping and starting of servers hosted on panel. This was designed with the intent of running with a github action. Suitable if you're updating lots of servers at once and you quickly need to make the update live. This code is provided AS IS!
 
 main.py <== script file that need to run
 
